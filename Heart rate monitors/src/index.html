@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
+  
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="css/local-fonts.css">
+  <link rel="stylesheet" href="css/tiny-slider.css">
+  <link rel="stylesheet" href="css/main.min.css">
+  <title>Heart rate monitors</title>
+</head>
+<body>
+  <section id="promo" class="promo">
+    <div class="container">
+      <header class="header">
+        <a href="#" class="header__logo">
+          <img src="img/1_promo/main-logo.png" alt="logo">
+        </a>
+        <div class="header__official">Официальный представитель
+          <span>Garmin, Polar, Suunto</span>
+        </div>
+        <div class="header__contacts">
+          <a href="tel:+74999228878" class="header__phone">+7 (499) 922-88-78</a>
+          <button data-modal="consultation" class="button">заказать звонок</button>
+        </div>
+      </header>
+
+      <div class="promo__wrapper">
+        <h1 class="promo__header">Подбор пульсометра</h1>
+        <h2 class="promo__subheader">с учётом Вашего уровня подготовки</h2>
+        <div class="promo__icons">
+
+          <div class="promo__icon">
+            <img src="img/1_promo/promo-icon-1.png" alt="timer icon">
+            Время подбора:
+            10 минут
+          </div>
+          <div class="promo__icon">
+            <img src="img/1_promo/promo-icon-2.png" alt="bag icon">
+            Бесплатная
+            доставка
+          </div>
+          <div class="promo__icon">
+            <img src="img/1_promo/promo-icon-3.png" alt="messages icon">
+            Ответим
+            на все вопросы
+          </div>
+        </div>
+
+        <button data-modal="consultation" class="button button_main">заказать консультацию</button>
+        <div class="promo__link">
+          или <a href="#catalog">перейти в каталог</a>
+        </div> 
+      </div>
+    </div>
+
+  </section> 
+
+  <section class="advantages">
+    <div class="container">
+      <h2 class="section-title">НАШИ ПРЕИМУЩЕСТВА</h2>
+
+      <div class="advantages__wrapper">
+        <div class="advantages__element">
+          <img src="img/2_advantages/advantages-icon-1.png" alt="cup icon">
+          <div class="advantages__title">Делимся опытом</div>
+          <div class="advantages__descr">Наши сотрудники всегда готовы поделиться своим опытом, 
+            так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
+        </div>
+
+        <div class="advantages__element">
+          <img src="img/2_advantages/advantages-icon-2.png" alt="heart icon">
+          <div class="advantages__title">Заботимся о здоровье</div>
+          <div class="advantages__descr">Мы работаем для того, 
+            чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
+            </div>
+        </div>
+
+        <div class="advantages__element">
+          <img src="img/2_advantages/advantages-icon-3.png" alt="sneakers">
+          <div class="advantages__title">Учим бегать</div>
+          <div class="advantages__descr">Помогаем с обучением 
+            правильной технике бега! 
+            Дружим с крупнейшей школой бега в России - <span>I LOVE RUNNING.</span>
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="consultation">
+    <div class="container">
+      <h2 class="section-title section-title_left">Получите бесплатную консультацию
+        по подбору пульсометра </h2>
+      <div class="consultation__descr">
+        Просто заполните форму заявки <br>
+        и мы перезвоним вам в течении 10 минут
+      </div>
+      <form id="consultation-form" class="feed-form" action="#">
+        <input name="name" placeholder="Ваше имя" type="text" required>
+        <input name="phone" placeholder="Ваш телефон" type="tel" required>
+        <input name="email" placeholder="Ваш E-mail" type="email" required>
+        <button class="button button_submit">Заказать консультацию</button>
+      </form>
+    </div>
+  </section>
+
+  <div class="carousel">
+    <div class="container">
+      <div class="carousel__inner">
+        <div><img src="img/4_carousel/slide-1.png" alt="пульсометр"></div>
+        <div><img src="img/4_carousel/slide-2.jpg" alt="пульсометр"></div>
+        <div><img src="img/4_carousel/slide-3.jpg" alt="пульсометр"></div>
+        <div><img src="img/4_carousel/slide-4.jpg" alt="пульсометр"></div>
+      </div>
+      <button type="button" class="prev"><img src="img/prev-arrow.png" alt="Назад"></button>
+      <button type="button" class="next"><img src="img/next-arrow.png" alt="Дальше"></button>
+    </div>
+  </div>
+
+  <section class="catalog" id="catalog">
+    <div class="container">
+
+      <h2 id="gotop" class="section-title">Каталог пульсометров</h2>
+
+      <div class="catalog__wrapper">
+
+        <ul class="catalog__tabs">
+          <li class="catalog__tab catalog__tab_active"><a href="#gotop">Для бега</a></li>
+          <li class="catalog__tab"><a href="#gotop">Для фитнеса</a></li>
+          <li class="catalog__tab"><a href="#gotop">Для триатлона</a></li>
+        </ul>
+        
+        <div class="catalog__content catalog__content_active">
+          
+          <div class="catalog-element">
+            <div class="catalog-element__header">
+              <div class="catalog-element__content catalog-element__content_active">
+                <img class="catalog-element__img" src="img/5_catalog/device.jpg" alt="device">
+                <div class="catalog-element__subtitle">
+                  Пульсометр Polar FT1
+                </div>
+                <div class="catalog-element__descr">
+                  Для первых шагов в тренировках, основанных на сердечном ритме
+                  <a class="catalog-element__details" href="#">Подробнее</a>
+                </div>
+              </div>
+              <div class="catalog-element__list">
+                <ul>
+                  <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                  <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                  <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                  <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                </ul>
+                <a class="catalog-element__back" href="#">Назад</a>
+              </div>
+            </div>
+            <hr>
+            <div class="catalog-element__footer">
+              <div class="catalog-element__price">
+                <span>4 750 руб.</span>
+                <br>
+                3 900 руб.
+              </div>
+              <button class="button button_purchase">КУПИТЬ</button>
+            </div>
+          </div>
+
+          <div class="catalog-element">
+            <div class="catalog-element__header">
+              <div class="catalog-element__content catalog-element__content_active">
+                <img class="catalog-element__img" src="img/5_catalog/m400_black.jpeg" alt="device">
+                <div class="catalog-element__subtitle">
+                  Пульсометр M400 Black
+                </div>
+                <div class="catalog-element__descr">
+                  Улучшенная версия M400 Black, имеет следующие улучшения:
+                  <a class="catalog-element__details" href="#">Подробнее</a>
+                </div>
+              </div>
+              <div class="catalog-element__list">
+                <ul>
+                  <li>Часы обладают водонепроницаемым корпусом;</li>
+                  <li>Силиконовый ремешок и супер легкий корпус;</li>
+                  <li>Подробная информация о расходе калорий за тренировку;</li>
+                  <li>Данные за последние 20 тренировок.</li>
+                </ul>
+                <a class="catalog-element__back" href="#">Назад</a>
+              </div>
+            </div>
+            <hr>
+            <div class="catalog-element__footer">
+              <div class="catalog-element__price">
+                <span>17 690 руб.</span>
+                <br>
+                15 900 руб.
+              </div>
+              <button class="button button_purchase">КУПИТЬ</button>
+            </div>
+          </div>
+
+          <div class="catalog-element">
+            <div class="catalog-element__header">
+              <div class="catalog-element__content catalog-element__content_active">
+                <img class="catalog-element__img" src="img/5_catalog/M400_White.jpg" alt="device">
+                <div class="catalog-element__subtitle">
+                  Пульсометр M400 White
+                </div>
+                <div class="catalog-element__descr">
+                  Улучшенная версия M400 White, имеет следующие улучшения:
+                  <a class="catalog-element__details" href="#">Подробнее</a>
+                </div>
+              </div>
+              <div class="catalog-element__list">
+                <ul>
+                  <li>Часы обладают водонепроницаемым корпусом;</li>
+                  <li>Силиконовый ремешок и супер легкий корпус;</li>
+                  <li>Подробная информация о расходе калорий за тренировку;</li>
+                  <li>Данные за последние 20 тренировок.</li>
+                </ul>
+                <a class="catalog-element__back" href="#">Назад</a>
+              </div>
+            </div>
+            <hr>
+            <div class="catalog-element__footer">
+              <div class="catalog-element__price">
+                <span>17 690 руб.</span>
+                <br>
+                15 900 руб.
+              </div>
+              <button class="button button_purchase">КУПИТЬ</button>
+            </div>
+          </div>
+
+          <div class="catalog-element">
+            <div class="catalog-element__header">
+              <div class="catalog-element__content catalog-element__content_active">
+                <img class="catalog-element__img" src="img/5_catalog/m430-grey.jpg" alt="device">
+                <div class="catalog-element__subtitle">
+                  Пульсометр M430 Grey
+                </div>
+                <div class="catalog-element__descr">
+                  Классический пульсометр, обладает всеми нужными функциями
+                  <a class="catalog-element__details" href="#">Подробнее</a>
+                </div>
+              </div>
+              <div class="catalog-element__list">
+                <ul>
+                  <li> Датчик с пульсометром на запястье;</li>
+                  <li>Новые возможности во время бега;</li>
+                  <li>Отслеживание сна с помощью Polar Sleep Plus;</li>
+                  <li>Программа бега Polar</li>
+                </ul>
+                <a class="catalog-element__back" href="#">Назад</a>
+              </div>
+            </div>
+            <hr>
+            <div class="catalog-element__footer">
+              <div class="catalog-element__price">
+                <span>15 640 руб.</span>
+                <br>
+                  14 800 руб.
+              </div>
+              <button class="button button_purchase">КУПИТЬ</button>
+            </div>
+          </div>
+
+          <div class="catalog-element">
+            <div class="catalog-element__header">
+              <div class="catalog-element__content catalog-element__content_active">
+                <img class="catalog-element__img" src="img/5_catalog/m430_orange.jpg" alt="device">
+                <div class="catalog-element__subtitle">
+                  Пульсометр M430 Orange
+                </div>
+                <div class="catalog-element__descr">
+                  Стильный пульсометр, для ярких личностей
+                  <a class="catalog-element__details" href="#">Подробнее</a>
+                </div>
+              </div>
+              <div class="catalog-element__list">
+                <ul>
+                  <li>Стильный дизайн;</li>
+                  <li>Датчик с пульсометром на запястье;</li>
+                  <li>Новые возможности во время бега;</li>
+                  <li>Отслеживание сна с помощью Polar Sleep Plus;</li>
+                  <li>Программа бега Polar</li>
+                </ul>
+                <a class="catalog-element__back" href="#">Назад</a>
+              </div>
+            </div>
+            <hr>
+            <div class="catalog-element__footer">
+              <div class="catalog-element__price">
+                <span>15 640 руб.</span>
+                <br>
+                  14 800 руб.
+              </div>
+              <button class="button button_purchase">КУПИТЬ</button>
+            </div>
+          </div>
+
+          <div class="catalog-element">
+            <div class="catalog-element__header">
+              <div class="catalog-element__content catalog-element__content_active">
+                <img class="catalog-element__img" src="img/5_catalog/RS300x.jpg" alt="device">
+                <div class="catalog-element__subtitle">
+                  Пульсометр RS300X
+                </div>
+                <div class="catalog-element__descr">
+                  Пульсометр для продвинутых пользователей
+                  <a class="catalog-element__details" href="#">Подробнее</a>
+                </div>
+              </div>
+              <div class="catalog-element__list">
+                <ul>
+                  <li>Стильный дизайн;</li>
+                  <li>Яркая подсветка в темное время суток;</li>
+                  <li>Экран устойчив к царапинам;</li>
+                </ul>
+                <a class="catalog-element__back" href="#">Назад</a>
+              </div>
+            </div>
+            <hr>
+            <div class="catalog-element__footer">
+              <div class="catalog-element__price">
+              <span>7 500 руб.</span>
+              <br>
+                6 999 руб.
+              </div>
+              <button class="button button_purchase">КУПИТЬ</button>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+        <div class="catalog__content">
+                    
+          <div class="catalog-element">
+            <div class="catalog-element__header">
+              <div class="catalog-element__content catalog-element__content_active">
+                <img class="catalog-element__img" src="img/5_catalog/Ignite_black.jpg" alt="device">
+                <div class="catalog-element__subtitle">
+                  Пульсометр POLAR IGNITE 
+                  <br>Black
+                </div>
+                <div class="catalog-element__descr">
+                  Умные фитнес часы, со множеством встроенных функций
+                  <a class="catalog-element__details" href="#">Подробнее</a>
+                </div>
+              </div>
+              <div class="catalog-element__list">
+                <ul>
+                  <li>Классический черный;</li>
+                  <li>Новейший пульсометр на запястье;</li>
+                  <li>Встроенный датчик GPS;</li>
+                  <li>Показатель восстановления Nightly Recharge;</li>
+                  <li>Данные последних 30 тренировок.</li> 
+                </ul>
+                <a class="catalog-element__back" href="#">Назад</a>
+              </div>
+            </div>
+            <hr>
+            <div class="catalog-element__footer">
+              <div class="catalog-element__price">
+                <span>15 000 руб.</span>
+                <br>
+                13 900  руб.
+              </div>
+              <button class="button button_purchase">КУПИТЬ</button>
+            </div>
+          </div>
+
+          <div class="catalog-element">
+            <div class="catalog-element__header">
+              <div class="catalog-element__content catalog-element__content_active">
+                <img class="catalog-element__img" src="img/5_catalog/ignite_white.jpg" alt="device">
+                <div class="catalog-element__subtitle">
+                  Пульсометр POLAR IGNITE 
+                  <br>White
+                </div>
+                <div class="catalog-element__descr">
+                  Умные фитнес часы, со множеством встроенных функций
+                  <a class="catalog-element__details" href="#">Подробнее</a>
+                </div>
+              </div>
+              <div class="catalog-element__list">
+                <ul>
+                  <li>Утонченный белый;</li>
+                  <li>Новейший пульсометр на запястье;</li>
+                  <li>Встроенный датчик GPS;</li>
+                  <li>Показатель восстановления Nightly Recharge;</li>
+                  <li>Данные последних 30 тренировок.</li>
+                </ul>
+                <a class="catalog-element__back" href="#">Назад</a>
+              </div>
+            </div>
+            <hr>
+            <div class="catalog-element__footer">
+              <div class="catalog-element__price">
+                <span>15 000 руб.</span>
+                <br>
+                13 900  руб.
+              </div>
+              <button class="button button_purchase">КУПИТЬ</button>
+            </div>
+          </div>
+
+          <div class="catalog-element">
+            <div class="catalog-element__header">
+              <div class="catalog-element__content catalog-element__content_active">
+                <img class="catalog-element__img" src="img/5_catalog/Ignite_yellow.jpg" alt="device">
+                <div class="catalog-element__subtitle">
+                  Пульсометр POLAR IGNITE 
+                  <br>Yellow
+                </div>
+                <div class="catalog-element__descr">
+                  Умные фитнес часы, со множеством встроенных функций
+                  <a class="catalog-element__details" href="#">Подробнее</a>
+                </div>
+              </div>
+              <div class="catalog-element__list">
+                <ul>
+                  <li>Нежный розовый;</li>
+                  <li>Новейший пульсометр на запястье;</li>
+                  <li>Встроенный датчик GPS;</li>
+                  <li>Показатель восстановления Nightly Recharge;</li>
+                  <li>Данные последних 30 тренировок.</li>
+                </ul>
+                <a class="catalog-element__back" href="#">Назад</a>
+              </div>
+            </div>
+            <hr>
+            <div class="catalog-element__footer">
+              <div class="catalog-element__price">
+                <span>15 000 руб.</span>
+                <br>
+                13 900  руб.
+              </div>
+              <button class="button button_purchase">КУПИТЬ</button>
+            </div>
+          </div>
+
+          <div class="catalog-element">
+            <div class="catalog-element__header">
+              <div class="catalog-element__content catalog-element__content_active">
+                <img class="catalog-element__img" src="img/5_catalog/ignite_rose.jpg" alt="device">
+                <div class="catalog-element__subtitle">
+                  Пульсометр POLAR IGNITE 
+                  <br>Pink
+                </div>
+                <div class="catalog-element__descr">
+                  Умные фитнес часы, со множеством встроенных функций
+                  <a class="catalog-element__details" href="#">Подробнее</a>
+                </div>
+              </div>
+              <div class="catalog-element__list">
+                <ul>
+                  <li> Датчик с пульсометром на запястье;</li>
+                  <li>Новые возможности во время бега;</li>
+                  <li>Отслеживание сна с помощью Polar Sleep Plus;</li>
+                  <li>Программа бега Polar</li>
+                </ul>
+                <a class="catalog-element__back" href="#">Назад</a>
+              </div>
+            </div>
+            <hr>
+            <div class="catalog-element__footer">
+              <div class="catalog-element__price">
+                <span>16 000 руб.</span>
+                <br>
+                14 890  руб.
+              </div>
+              <button class="button button_purchase">КУПИТЬ</button>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+
+        <div class="catalog__content">
+                    
+          <div class="catalog-element">
+            <div class="catalog-element__header">
+              <div class="catalog-element__content catalog-element__content_active">
+                <img class="catalog-element__img" src="img/5_catalog/vantage_v_orange.jpg" alt="device">
+                <div class="catalog-element__subtitle">
+                  Пульсометр VANTAGE V
+                  <br>Orange
+                </div>
+                <div class="catalog-element__descr">
+                  Новейший фитнес-браслет с пульсометром
+                  <a class="catalog-element__details" href="#">Подробнее</a>
+                </div>
+              </div>
+              <div class="catalog-element__list">
+                <ul>
+                  <li>Пульсометр VANTAGE V в оранжевом цвете;</li>
+                  <li>Новейшие спортивные технологии и облегченный дизайн;</li>
+                  <li>Усовершенствованная система измерения ЧСС на запястье;</li>
+                  <li>Сменные браслеты.</li>
+                </ul>
+                <a class="catalog-element__back" href="#">Назад</a>
+              </div>
+            </div>
+            <hr>
+            <div class="catalog-element__footer">
+              <div class="catalog-element__price">
+                <span>38 900 руб.</span>
+                <br>
+                36 900 руб.
+              </div>
+              <button class="button button_purchase">КУПИТЬ</button>
+            </div>
+          </div>
+
+          <div class="catalog-element">
+            <div class="catalog-element__header">
+              <div class="catalog-element__content catalog-element__content_active">
+                <img class="catalog-element__img" src="img/5_catalog/vantage-v-black-hr.jpg" alt="device">
+                <div class="catalog-element__subtitle">
+                  Пульсометр VANTAGE V 
+                  <br>Black
+                </div>
+                <div class="catalog-element__descr">
+                  Новейший фитнес-браслет с пульсометром
+                  <a class="catalog-element__details" href="#">Подробнее</a>
+                </div>
+              </div>
+              <div class="catalog-element__list">
+                <ul>
+                  <li>Пульсометр VANTAGE V в черном цвете;</li>
+                  <li>Новейшие спортивные технологии и облегченный дизайн;</li>
+                  <li>Усовершенствованная система измерения ЧСС на запястье;</li>
+                  <li>Сменные браслеты.</li>
+                </ul>
+                <a class="catalog-element__back" href="#">Назад</a>
+              </div>
+            </div>
+            <hr>
+            <div class="catalog-element__footer">
+              <div class="catalog-element__price">
+                <span>46 900 руб.</span>
+                <br>
+                45 800 руб.
+              </div>
+              <button class="button button_purchase">КУПИТЬ</button>
+            </div>
+          </div>
+
+          <div class="catalog-element">
+            <div class="catalog-element__header">
+              <div class="catalog-element__content catalog-element__content_active">
+                <img class="catalog-element__img" src="img/5_catalog/Vantage-V_blue_HR168.jpg" alt="device">
+                <div class="catalog-element__subtitle">
+                  Пульсометр VANTAGE V 
+                  <br>Blue
+                </div>
+                <div class="catalog-element__descr">
+                  Новейший фитнес-браслет с пульсометром
+                  <a class="catalog-element__details" href="#">Подробнее</a>
+                </div>
+              </div>
+              <div class="catalog-element__list">
+                <ul>
+                  <li>Пульсометр VANTAGE V в синем цвете;</li>
+                  <li>Новейшие спортивные технологии и облегченный дизайн;</li>
+                  <li>Усовершенствованная система измерения ЧСС на запястье;</li>
+                  <li>Сменные браслеты.</li>
+                </ul>
+                <a class="catalog-element__back" href="#">Назад</a>
+              </div>
+            </div>
+            <hr>
+            <div class="catalog-element__footer">
+              <div class="catalog-element__price">
+                <span>38 900 руб.</span>
+                <br>
+                36 900 руб.
+              </div>
+              <button class="button button_purchase">КУПИТЬ</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews">
+    <div class="container">
+      <h2 class="section-title">отзывы клиентов</h2>
+      
+      <div class="reviews-element">
+        <div class="reviews-element__img">
+          <img src="img/6_reviews/client-1.jpg" alt="client photo">
+        </div>
+        <div class="reviews-element__text">
+          <div class="reviews-element__name">
+            Юлия Дашкина
+          </div>
+          <div class="reviews-element__status">2 полумарафона</div>
+          <div class="reviews-element__message">
+            Не знала, что себе купить - обратилась к ребятам из RunSmart - подобрали пульсометр, который подошёл именно под мои цели и финансовые возможности.
+            Через некоторое время решила обновить гаджет - не раздумывая обратилась туда же.
+            <br><br>
+            Новые цели - новый гаджет!
+            <br><br>
+            Спасибо, RunSmart! 
+          </div>
+        </div>
+      </div>
+      
+      <hr>
+
+      <div class="reviews-element">
+        <div class="reviews-element__img">
+          <img src="img/6_reviews/client-2.jpg" alt="client photo">
+        </div>
+        <div class="reviews-element__text">
+          <div class="reviews-element__name">
+            Иван Сёмочкин
+          </div>
+          <div class="reviews-element__status">1 полумарафон</div>
+          <div class="reviews-element__message">
+            Крутая штука-пульсометр. Обычно без них бегал. Оказывается только хуже себе делал. 
+            Купил пульсометр, ещё в подарок получил тренировку. Со мной вместе провели первую тренировку, научили пользоваться новым гаджетом. Также объяснили основы анатомии, составили план тренировок на месяц вперёд.
+            <br><br>
+            С ними подготовился к своему первому полумарафону! Спасибо!!!
+          </div>
+        </div>
+      </div>
+      
+      <hr>
+
+      <div class="reviews-element">
+        <div class="reviews-element__img">
+          <img src="img/6_reviews/client-3.jpg" alt="client photo">
+        </div>
+        <div class="reviews-element__text">
+          <div class="reviews-element__name">
+            Ирина Иванченко
+          </div>
+          <div class="reviews-element__status">2 полумарафона</div>
+          <div class="reviews-element__message">
+            Долго не могла начать бегать, т.к. до этого несколько раз начинала, но становилось тяжело и я бросала. От друзей услышала о RunSmart и о беге с контролем пульса и решила попробовать.
+            <br><br>
+            Позвонила, ребята поинтересовались моими целями и подобрали очень интересный вариант со скидкой! Теперь бегаю и наслаждаюсь бегом! Пробежала уже 2 полумарафона и несколько более коротких забегов и не намерена останавливаться!
+            <br><br>
+            Спасибо!!!
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <iframe class="footer__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.3032592634395!2d37.607460661330784!3d55.75323399197223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a51e9d112bf%3A0x106c1d313570697b!2z0KDQvtC80LDQvdC-0LIg0L_QtdGALiwgMiDRgdGC0YDQvtC10L3QuNC1IDE3LCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTI1MDA5!5e0!3m2!1sru!2s!4v1590413584182!5m2!1sru!2s" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+    <div class="footer__info">
+      <address class="footer__address">Москва, Романов переулок, д.2с.17</address>
+      <a href="tel:+74999228878" class="footer__phone">+7 (499) 922-88-78</a>
+      <div class="footer__social">
+        <a href="#" class="footer__social-item"><img src="img/7_footer/facebook-icon.svg" alt="facebook"></a>
+        <a href="#" class="footer__social-item"><img src="img/7_footer/instagram-icon.svg" alt="instagram"></a>
+        <a href="#" class="footer__social-item"><img src="img/7_footer/pinterest-icon.svg" alt="pinterest"></a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="overlay">
+    <div class="modal" id="consultation">
+      <div class="modal__close">&times;</div>
+      <div class="modal__title">Просто заполните форму заявки</div>
+      <div class="modal__subtitle">и мы перезвоним вам в течении 10 минут</div>
+      <form class="feed-form feed-form_mt25" action="#">
+        <input name="name" placeholder="Ваше имя" type="text" required>
+        <input name="phone" placeholder="Ваш телефон" type="tel" required>
+        <input name="email" placeholder="Ваш E-mail" type="email" required>
+        <button class="button button_submit">Заказать консультацию</button>
+      </form>
+    </div>
+
+    <div class="modal" id="order">
+      <div class="modal__close">&times;</div>
+      <div class="modal__title">Ваш заказ</div>
+      <div class="modal__subtitle"></div>
+      <form class="feed-form feed-form_mt25" action="#">
+        <input name="name" placeholder="Ваше имя" type="text" required>
+        <input name="phone" placeholder="Ваш телефон" type="tel" required>
+        <input name="email" placeholder="Ваш E-mail" type="email" required>
+        <button class="button button_submit">Купить</button>
+      </form>
+    </div>
+
+    <div class="modal modal_mini" id="thanks">
+      <div class="modal__close">&times;</div>
+      <div class="modal__title">Спасибо за вашу заявку!</div>
+      <div class="modal__subtitle">Наш менеджер свяжется с вами в ближайшее время!</div>
+    </div>
+  </div>
+
+  <a href="#promo" class="pageup">
+    <img src="img/pageup.svg" alt="up">
+  </a>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/script-jquery.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

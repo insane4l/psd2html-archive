@@ -1,0 +1,623 @@
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ДО 576 ПИКСЕЛЕЙ */
+@media (max-width: 576px)
+  /* ______________________________________________ 1_PROMO _______________________________________  */
+  .promo
+    min-height: 600px
+    background: url(../img/1_promo/promo-bg.jpg) right center/cover no-repeat
+    padding: 10px 0 95px 0
+    &__wrapper
+      align-items: center
+      text-align: center
+      margin-top: 35px
+    &__header
+      font-size: 30px
+      line-height: 36px
+    &__subheader
+      margin-top: 0
+      font-size: 15px
+      line-height: 20px
+    &__icons
+      justify-content: space-around
+      margin-top: 40px
+      width: 300px
+    &__icon
+      width: 95px
+      font-size: 12px
+      img
+        margin-bottom: 15px
+    &__link
+      padding-left: 125px
+      margin-top: 16px
+      font-size: 14px
+    .header
+      align-items: flex-start
+      justify-content: center
+      flex-wrap: wrap
+      margin: 0 5px
+      &__logo
+        flex-basis: 60%
+        max-width: 250px
+      &__official
+        width: 300px
+        order: 1
+        margin-top: 15px
+        padding: 4px
+        border: 1px solid $main-color
+        span
+          font-size: 14px
+      &__contacts
+        flex-basis: 40%
+        button
+          display: none
+      &__phone
+        font-size: 13px
+        font-weight: 500
+  /* ______________________________________________ 2_ADVANTAGES _______________________________________  */
+  .advantages
+    padding: 35px 0 50px 0
+    &__wrapper
+      flex-direction: column
+      align-items: center
+      margin-top: 20px
+    &__element
+      width: 280px
+      margin-top: 25px
+      
+    &__title
+      margin-top: 10px
+    &__descr
+      margin-top: 10px
+  /* ______________________________________________ 3_CONSULTATION _______________________________________  */
+  .consultation
+    min-height: 540px
+    padding: 45px 10px 60px 10px
+    background: url('../img/3_consultation/consultation_request-bg.jpg') left (center/cover) no-repeat
+    &__descr
+      font-size: 16px
+      margin-top: 40px
+    label.error
+      margin-top: -10px
+      margin-bottom: 10px
+  /* ______________________________________________ 4_CAROUSEL _______________________________________  */
+  .carousel
+    padding: 40px 0 30px 0
+    &__inner
+      width: 550px
+    .prev
+      display: none
+    .next
+      display: none
+  .tns
+    &-item
+      img
+        max-width: 100%
+        max-height: 250px
+    &-nav
+      bottom: -30px
+      button
+        width: 16px
+        height: 16px
+        margin: 0 10px
+  /* ______________________________________________ 5_CATALOG _______________________________________  */
+  .catalog
+    padding: 70px 5px 20px 5px
+    &__tab
+      margin: 0 2px
+      width: 150px
+      text-align: center
+      font-size: 15px
+      transform: skew(-10deg)
+      transition: 0s all
+      &:hover
+        box-shadow: none
+      a
+        transform: skew(10deg)
+      &s
+        position: sticky
+        top: 0
+        margin-top: 30px
+        background-color: #fff
+        z-index: 44
+    &__content
+      flex-direction: column
+      align-items: center
+      flex-wrap: nowrap
+      margin-top: 15px
+      max-height: 2640px
+    &-element
+      min-height: 400px
+      padding: 15px
+      &__content
+        transition: 0s all
+      &__list
+        transition: 0s all
+        li
+          margin-bottom: 14px
+      &__img
+        height: 190px
+      &__subtitle
+        margin-top: 10px
+      &__footer
+        margin-top: 10px
+      &__price
+        font-size: 18px
+        span
+          font-size: 12px
+  /* ______________________________________________ 6_REVIEWS _______________________________________  */
+  .reviews
+    padding: 50px 2px 30px 2px
+    .section-title
+      margin-bottom: 10px
+    &-element
+      align-items: center
+      flex-direction: column
+      padding: 40px 0 20px 0
+      &__img
+        width: 160px
+        height: 160px  
+        img
+          width: 160px
+      &__text
+        padding: 0 20px
+        margin-left: 0
+        text-align: center
+      &__name
+        margin-top: 5px
+        font-size: 16px
+      &__message
+        margin-top: 15px
+        font-size: 14px
+  /* ______________________________________________ 7_FOOTER _______________________________________  */
+  .footer
+    height: 450px
+    overflow: hidden
+    &__info
+      width: 100%
+      height: 200px
+      padding: 20px
+    &__address
+      font-size: 16px
+      margin-bottom: 15px
+    &__phone
+      font-size: 16px
+    &__social
+      margin-top: 30px
+      &-item
+        &:hover
+          transform: none
+  /* ______________________________________________ MODAL _______________________________________  */
+  .modal
+    padding: 50px 5px 30px 5px
+    width: 310px
+    min-height: 400px
+    .feed-form
+      input
+        display: block
+        margin-left: auto
+        margin-right: auto
+        width: 250px
+        height: 40px
+      button
+        display: block
+        margin: 0 auto
+        width: 250px
+        height: 40px
+    &__close
+      top: 3px
+      right: 3px
+    &__title
+      font-size: 17px
+    &__subtitle
+      font-size: 13px
+    &_mini
+      min-height: 140px
+    label.error
+      text-align: center
+      margin-top: -10px
+      margin-bottom: 10px
+  /* ______________________________________________ FORMS _______________________________________  */
+  .feed-form
+    margin-top: 15px
+  /* ______________________________________________ ELEMENTS _______________________________________  */
+  .section-title
+    font-size: 26px
+    line-height: 26px
+  .button
+    font-size: 13px
+    &_submit
+      font-size: 14px
+    &_main
+      font-size: 14px
+    &:hover
+      background-color: $main-color    
+  .pageup
+    padding: 2px
+    right: 2px
+    bottom: 5px
+    width: 35px
+    height: 35px
+    opacity: 0.5
+    background: #fff
+    border-radius: 5px
+
+
+
+
+// /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ОТ 577 ДО 767 ПИКСЕЛЕЙ */
+@media (min-width: 577px) and (max-width: 767px)
+  /* ______________________________________________ 1_PROMO _______________________________________  */
+  .promo
+    min-height: 600px
+    background: url(../img/1_promo/promo-bg.jpg) right center/cover no-repeat
+    &__wrapper
+      align-items: center
+      text-align: center
+      margin-top: 65px
+    &__header
+      font-size: 37px
+      line-height: 40px
+    &__subheader
+      margin-top: 10px
+      font-size: 18px
+      line-height: 22px
+    &__icons
+      width: 380px
+    &__icon
+      width: 95px
+      font-size: 12px
+    &__link
+      padding-left: 125px
+      font-size: 14px
+    .header
+      margin: 0 15px
+      &__logo
+        max-width: 250px
+      &__official
+        width: 280px
+        span
+          font-size: 16px
+      &__contacts
+        flex-basis: 30%
+        button
+          display: none
+      &__phone
+        width: 140px
+        font-size: 15px     
+  /* ______________________________________________ 2_ADVANTAGES _______________________________________  */
+  .advantages
+    padding: 55px 0 60px 0
+    &__wrapper
+      flex-direction: column
+      align-items: center
+      margin-top: 25px
+    &__element
+      width: 280px
+      margin-top: 40px
+    &__title
+      margin-top: 15px
+    &__descr
+      margin-top: 10px
+  /* ______________________________________________ 3_CONSULTATION _______________________________________  */
+  .consultation
+    min-height: 580px
+    padding: 45px 20px 60px 20px
+    background: url('../img/3_consultation/consultation_request-bg.jpg') left (center/cover) no-repeat
+    .section-title
+      max-width: 420px
+    &__descr
+      font-size: 16px
+      margin-top: 40px
+    label.error
+      margin-top: -10px
+      margin-bottom: 10px
+  /* ______________________________________________ 4_CAROUSEL _______________________________________  */
+  .carousel
+    padding: 55px 0 40px 0
+    &__inner
+      width: 550px
+    .prev
+      display: none
+    .next
+      display: none
+  .tns
+    &-item
+      img
+        max-width: 100%
+        max-height: 350px
+    &-nav
+      bottom: -40px
+      button
+        width: 16px
+        height: 16px
+        margin: 0 8px
+  /* ______________________________________________ 5_CATALOG _______________________________________  */
+  .catalog
+    padding: 70px 15px 40px 15px
+    &__tab
+      font-size: 16px
+      transition: 0s all
+      &:hover
+        box-shadow: none
+      &s
+        position: sticky
+        top: 0
+        margin-top: 55px
+        background-color: #fff
+        z-index: 44
+    &__content
+      justify-content: center
+      margin-top: 30px
+      max-height: 3000px
+    &-element
+      margin: 15px
+      padding: 15px
+      &__content
+        transition: 0s all
+      &__list
+        transition: 0s all
+      &__price
+        font-size: 18px    
+  /* ______________________________________________ 6_REVIEWS _______________________________________  */
+  .reviews
+    padding: 50px 0 30px 0
+    &-element
+      align-items: center
+      flex-direction: column
+      padding: 40px 0
+      &__text
+        padding: 0 50px
+        margin-left: 0
+        text-align: center
+      &__name
+        margin-top: 20px
+      &__message
+        margin-top: 25px
+        font-size: 15px
+  /* ______________________________________________ 7_FOOTER _______________________________________  */
+  .footer
+    height: 500px
+    overflow: hidden
+    &__info
+      width: 100%
+      height: 200px
+      padding: 20px
+    &__address
+      font-size: 16px
+      margin-bottom: 15px
+    &__phone
+      font-size: 16px
+    &__social
+      margin-top: 30px
+      &-item
+        &:hover
+          transform: none
+  /* ______________________________________________ MODAL _______________________________________  */
+  .modal
+    padding: 50px 5px 30px 5px
+    width: 310px
+    min-height: 400px
+    .feed-form
+      input
+        display: block
+        margin-left: auto
+        margin-right: auto
+        width: 250px
+        height: 40px
+      button
+        display: block
+        margin: 0 auto
+        width: 250px
+        height: 40px
+    &__close
+      top: 3px
+      right: 3px
+    &__title
+      font-size: 17px
+    &__subtitle
+      font-size: 13px
+    &_mini
+      min-height: 140px
+    label.error
+      text-align: center
+      margin-top: -10px
+      margin-bottom: 10px
+  /* ______________________________________________ FORMS _______________________________________  */
+  .feed-form
+    margin-top: 15px
+  /* ______________________________________________ ELEMENTS _______________________________________  */
+  .section-title
+    font-size: 28px
+    line-height: 28px
+  .button
+    &_submit
+      font-size: 14px
+    &:hover
+      background-color: $main-color    
+  .pageup
+    padding: 2px
+    right: 2px
+    bottom: 5px
+    width: 35px
+    height: 35px
+    opacity: 0.5
+    background: #fff
+    border-radius: 5px
+
+
+
+
+// /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ОТ 768 ДО 991 ПИКСЕЛЕЙ */
+@media (min-width: 768px) and (max-width: 991px)
+  /* ______________________________________________ 1_PROMO _______________________________________  */
+  .promo
+    padding: 20px 15px 95px 15px
+    &__wrapper
+      margin-top: 90px
+    &__header
+      font-size: 38px
+    &__subheader
+      margin-top: 10px
+      font-size: 19px
+    &__icons
+      margin-top: 30px
+      width: 380px
+    &__icon
+      width: 95px
+      font-size: 12px
+    &__link
+      font-size: 15px
+  /* ______________________________________________ 2_ADVANTAGES _______________________________________  */
+  .advantages
+    padding: 70px 15px
+    &__wrapper
+      justify-content: space-around
+      align-items: flex-end
+      min-height: 406px
+    &__element
+      width: 280px
+      &:nth-child(2)
+        align-self: flex-start
+    &__title
+      margin-top: 20px
+    &__descr
+      margin-top: 10px
+  /* ______________________________________________ 3_CONSULTATION _______________________________________  */
+  .consultation
+    min-height: 580px
+    padding: 40px 15px 80px 30px
+    .section-title
+      max-width: 500px
+    &__descr
+      font-size: 18px
+      margin-top: 40px
+    label.error
+      margin-top: -10px
+      margin-bottom: 10px 
+  /* ______________________________________________ 4_CAROUSEL _______________________________________  */
+  .carousel
+    padding: 65px 0
+    .prev
+      display: none
+    .next
+      display: none
+  .tns
+    &-item
+      img
+        max-width: 100%
+        max-height: 420px
+    &-nav
+      bottom: -40px
+      button
+        width: 16px
+        height: 16px
+        margin: 0 8px
+  /* ______________________________________________ 5_CATALOG _______________________________________  */
+  .catalog
+    padding: 70px 15px 40px 15px
+    &__tab
+      transition: 0s all
+      &:hover
+        box-shadow: none
+      &s
+        position: sticky
+        top: 0
+        margin-top: 55px
+        background-color: #fff
+        z-index: 44
+    &__content
+      justify-content: center
+      margin-top: 30px
+      max-height: 3000px
+    &-element
+      margin: 15px
+      &__content
+        transition: 0s all
+      &__list
+        transition: 0s all
+  /* ______________________________________________ 6_REVIEWS _______________________________________  */
+  .reviews
+    padding: 50px 15px 30px 15px
+    &-element
+      padding: 40px 0
+      &__text
+        padding: 0 30px
+        margin-left: 0
+        max-width: 750px
+  /* ______________________________________________ 7_FOOTER _______________________________________  */
+  .footer
+    height: 500px
+    overflow: hidden
+    &__info
+      width: 380px
+      height: 220px
+      padding: 30px
+    &__address
+      font-size: 18px
+      margin-bottom: 20px
+    &__phone
+      font-size: 18px
+    &__social
+      margin-top: 30px
+      &-item
+        &:hover
+          transform: none
+  /* ______________________________________________ FORMS _______________________________________  */
+  .feed-form
+    margin-top: 15px
+
+  /* ______________________________________________ ELEMENTS _______________________________________  */
+  .section-title
+    font-size: 28px
+    line-height: 28px
+      
+  .button
+    &:hover
+      background-color: $main-color    
+  .pageup
+    right: 10px
+    bottom: 10px
+    width: 38px
+    height: 38px
+
+  
+
+
+// /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ОТ 992 ДО 1199 ПИКСЕЛЕЙ */
+@media (min-width: 992px) and (max-width: 1199px)
+  /* ______________________________________________ 3_CONSULTATION _______________________________________  */
+  .consultation
+    padding: 50px 0 92px 0
+    .section-title
+      max-width: 600px
+    &__descr
+      margin-top: 60px
+    label.error
+      margin-top: -10px
+      margin-bottom: 10px
+
+  /* ______________________________________________ ELEMENTS _______________________________________  */
+  .pageup
+    right: 5px
+    bottom: 10px
+    width: 38px
+    height: 38px
+
+
+
+
+
+
+// отключаем ховер эффекты, анимации до 992+px (ссылки, различные кнопки и тд)
+@media (max-width: 991px)
+  button
+    &:hover
+      background-color: $main-color
+      cursor: default
+  .overlay__close, .catalog__tab
+    cursor: default
+
+  .catalog-element__details, .catalog-element__back
+    text-decoration: none
+  .advantages__element
+    img
+      animation: none
