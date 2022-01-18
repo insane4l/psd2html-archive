@@ -1,0 +1,872 @@
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ДО 576 ПИКСЕЛЕЙ */
+@media (max-width: 576px)
+	/* отключаем ховер эффекты до 992+px по ТЗ */
+	button
+		&:hover
+			background-color: $button-color
+			cursor: default
+	.a
+		&:hover
+			cursor: default
+			text-decoration: none
+		&_small
+			&:hover
+				cursor: default
+				text-decoration: none
+	.advantages-certificate__img
+		&:hover
+			cursor: default
+	.reviews-slider__arrow
+		&:hover
+			cursor: default
+			transform: scale(1)
+	.modal-form_close
+		&:hover
+			cursor: default
+	.modal-thanks_close
+		&:hover
+			cursor: default
+
+	.input
+		width: 249px
+		&-tel
+			margin-bottom: 19px
+	.gradient-bg
+		&::before
+			background:  linear-gradient(45deg, $bg-color-blue, $bg-color-violet)
+	.main
+		&-form
+			display: inline-block
+			width: 300px
+			height: 272px
+			padding-top: 20px
+			&__title
+				font-size: 19px
+				margin-bottom: 9px
+			&__subtitle
+				font-size: 14px
+				margin-bottom: 22px
+				text-transform: uppercase
+				padding-left: 0
+				padding-right: 0
+			&__button
+				width: 188px
+				&::before
+					left: -56px
+					width: 38px
+				&::after
+					right: -56px
+					width: 38px
+
+	.modal
+		&-thanks
+			&__wrap
+				width: 285px
+				height: 200px
+			&__title
+				font-size: 20px
+			&__subtitle
+				font-size: 14px
+		&-review
+			&__form
+				width: 300px
+				height: 408px
+			&__title
+				font-size: 20px
+			&__subtitle
+				font-size: 14px
+				margin-bottom: 15px
+			&__textarea
+				font-size: 14px
+
+	.section-title
+		font-size: 20px
+		margin-bottom: 25px
+		&::after
+			display: none
+	/* ______________________________________________ 1_HEADER _______________________________________  */
+	.information
+		align-items: flex-end
+		margin-bottom: 22px
+		&-about
+			&__img
+				width: 122px
+				margin-right: 0
+			&__text
+				display: none
+		&-contacts
+			&__text
+				margin-right: 0
+				font-size: 15px
+				span
+					font-size: 16px
+			&__button
+				display: none
+	.header
+		padding-top: 22px
+		padding-bottom: 66px
+		&-sub
+			flex-direction: column
+			justify-content: center
+			align-items: center
+			&-text
+				text-align: center
+				&__title
+					font-size: 25px
+					margin-bottom: 0
+				&__subtitle
+					font-size: 20px
+					margin-bottom: 20px
+				&__descr
+					max-width: 90%
+					margin-left: auto
+					margin-right: auto
+					font-size: 16px
+					margin-bottom: 25px
+				&__button
+					display: none
+	.scroll-arrow
+		display: none
+
+	/* ______________________________________________ 2_ABOUT _______________________________________  */
+	.about
+		padding-top: 44px
+		padding-bottom: 44px
+		&-content-wrap
+			flex-direction: column
+			justify-content: center
+		&-descr
+			width: 100%
+			text-align: center
+			line-height: 22px
+			&__text
+				font-size: 16px
+				p
+					margin-bottom: 15px
+			&__services
+				text-align: right
+				flex-direction: column
+			&__service
+				margin: auto
+				&-img
+					margin-bottom: 5px
+				&-text
+					padding-left: 0
+					margin-bottom: 20px
+		&-video
+			width: 100%
+			max-width: 398px
+			height: 220px
+			margin: auto
+			video
+				width: 100%
+  			height: auto
+  			max-height: 100%
+
+	/* ______________________________________________ 3_TRAINING _______________________________________  */
+	.training
+		padding-top: 44px
+		padding-bottom: 44px
+		.section-title
+		margin-bottom: 22px
+		&-descr
+			font-size: 17px
+			line-height: 22px
+			&__about
+				margin-bottom: 40px
+		&-skill
+			width: 290px
+			margin-bottom: 30px
+			margin-right: auto
+			margin-left: auto
+			&__text
+				line-height: 20px
+		&-button
+			width: 270px
+			margin: auto
+			margin-top: 15px
+
+	/* ______________________________________________ 4_ADVANTAGES _______________________________________  */
+	.advantages
+		padding-top: 44px
+		padding-bottom: 44px
+		&-block
+			width: 290px
+			height: 165px
+			margin-right: auto
+			margin-left: auto
+			margin-bottom: 15px
+			&s
+				flex-direction: column
+				margin-bottom: 22px
+		&-certificate
+			text-align: center
+			&__descr
+				margin-top: 15px
+				width: 100%
+				line-height: 22px
+
+	/* ______________________________________________ 5_RESERVATION _______________________________________  */
+	.reservation
+		padding-top: 33px
+		padding-bottom: 33px
+		&-wrap
+			display: flex
+			justify-content: center
+			flex-direction: column
+		&-text
+			display: inline-block
+			margin-right: 0
+			.section-title
+				margin-bottom: 5px
+			&__subtitle
+				text-align: center
+				font-size: 15px
+				margin-bottom: 22px
+		&-button
+			margin: auto
+			width: 215px
+
+	/* ______________________________________________ 6_REVIEWS _______________________________________  */
+	.reviews
+		padding-top: 44px
+		padding-bottom: 44px
+		&-slider
+			&__arrow
+				&_left
+					left: -50px
+				&_right
+					right: -50px
+			&_bottom
+				width: 90%
+				&__title
+					font-size: 17px
+					margin-bottom: 0
+				&__descr
+					font-size: 15px
+					text-align: center
+
+
+	/* ______________________________________________ 7_SERVICES _______________________________________  */
+	.services
+		padding-top: 44px
+		padding-bottom: 44px
+		&-block
+			padding: 5px 5px 0 5px
+			width: 290px
+			height: 400px
+			margin-right: auto
+			margin-left: auto
+			margin-bottom: 33px
+			&s
+				flex-direction: column
+			&__img
+				margin-bottom: 15px
+			&__title
+				font-size: 18px
+				margin-bottom: 10px
+			&__descr
+				margin-bottom: 20px
+				font-size: 15px
+				line-height: 21px
+
+	/* ______________________________________________ 8_REQUEST _______________________________________  */
+	.request
+		padding-top: 44px
+		padding-bottom: 44px
+		.section-title
+			margin-bottom: 5px
+			&::after
+				display: none
+		&-subtitle
+			font-size: 17px
+		&-form
+			text-align: center
+			.input
+				&-tel
+					margin-bottom: 22px
+			&__button
+				width: 210px
+
+	/* ______________________________________________ 9_CONTACTS _______________________________________  */
+	.contacts
+		padding-top: 44px
+		padding-bottom: 44px
+		text-align: center
+		&-map
+			width: 100%
+			height: 350px
+		&-info
+			position: relative
+			top: 10px
+			margin-left: auto
+			margin-right: auto
+			&__title
+				margin-bottom: 5px
+				font-size: 16px
+			&__descr
+				&_wrap
+					margin-bottom: 22px
+			&__button
+				margin-top: 22px
+
+	/* ______________________________________________ 10_FOOTER _______________________________________  */
+	.footer
+		padding-top: 22px
+		padding-bottom: 20px
+		.line
+			&::after
+				top: 63px
+		.information
+			margin-bottom: 40px
+		&-copyright
+			font-size: 11px
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ОТ 577 ДО 767 ПИКСЕЛЕЙ */
+@media (min-width: 577px) and (max-width: 767px)	
+	/* отключаем ховер эффекты до 992+px по ТЗ */
+	button
+		&:hover
+			background-color: $button-color
+			cursor: default
+	.a
+		&:hover
+			cursor: default
+			text-decoration: none
+		&_small
+			&:hover
+				cursor: default
+				text-decoration: none
+	.advantages-certificate__img
+		&:hover
+			cursor: default
+	.reviews-slider__arrow
+		&:hover
+			cursor: default
+			transform: scale(1)
+	.modal-form_close
+		&:hover
+			cursor: default
+	.modal-thanks_close
+		&:hover
+			cursor: default
+
+	.modal
+		&-review
+			&__form
+				width: 350px
+				height: 408px
+			&__title
+				font-size: 20px
+			&__subtitle
+				font-size: 14px
+				margin-bottom: 15px
+			&__textarea
+				font-size: 14px
+
+	.section-title
+		font-size: 24px
+		margin-bottom: 33px
+		&::after
+			display: none
+	/* ______________________________________________ 1_HEADER _______________________________________  */
+	.information
+		align-items: center
+		margin-bottom: 55px
+		&-about
+			&__text
+				display: none
+		&-contacts
+			&__text
+				margin-right: 0
+			&__button
+				display: none
+	.header
+		padding-top: 22px
+		padding-bottom: 88px
+		&-sub
+			flex-direction: column
+			justify-content: center
+			align-items: center
+			&-text
+				text-align: center
+				&__title
+					font-size: 33px
+					margin-bottom: 0
+				&__subtitle
+					font-size: 22px
+					margin-bottom: 20px
+				&__descr
+					margin-left: auto
+					margin-right: auto
+					font-size: 16px
+					margin-bottom: 25px
+				&__button
+					display: none
+	.scroll-arrow
+		display: none
+
+	/* ______________________________________________ 2_ABOUT _______________________________________  */
+	.about
+		padding-top: 55px
+		padding-bottom: 33px
+		&-content-wrap
+			flex-direction: column
+			justify-content: center
+		&-descr
+			text-align: center
+			line-height: 22px
+			&__text
+				font-size: 17px
+				p
+					margin-bottom: 30px
+			&__services
+				text-align: right
+				flex-direction: column
+			&__service
+				margin: auto
+				&-img
+					margin-bottom: 5px
+				&-text
+					padding-left: 0
+					margin-bottom: 20px
+		&-video
+			width: 100%
+			height: 280px
+			margin: auto
+			video
+				width: 100%
+  			height: auto
+  			max-height: 100%	
+
+	/* ______________________________________________ 3_TRAINING _______________________________________  */
+	.training
+		padding-top: 55px
+		padding-bottom: 55px
+		.section-title
+		margin-bottom: 33px
+		&-descr
+			font-size: 17px
+			line-height: 22px
+			&__about
+				margin-bottom: 40px
+		&-skill
+			width: 290px
+			margin-bottom: 30px
+			margin-right: auto
+			margin-left: auto
+			&__text
+				line-height: 20px
+		&-button
+			margin-top: 15px
+
+	/* ______________________________________________ 4_ADVANTAGES _______________________________________  */
+	.advantages
+		padding-top: 55px
+		padding-bottom: 55px
+		&-block
+			margin-right: auto
+			margin-left: auto
+			margin-bottom: 25px
+			&s
+				flex-direction: column
+				margin-bottom: 22px
+		&-certificate
+			text-align: center
+			&__descr
+				margin-top: 22px
+				width: 100%
+				line-height: 23px
+
+	/* ______________________________________________ 5_RESERVATION _______________________________________  */
+	.reservation
+		padding-top: 33px
+		padding-bottom: 33px
+		&-wrap
+			display: flex
+			justify-content: center
+			flex-direction: column
+		&-text
+			display: inline-block
+			margin-right: 0
+			.section-title
+				margin-bottom: 5px
+			&__subtitle
+				text-align: center
+				font-size: 16px
+				margin-bottom: 28px
+		&-button
+			margin: auto
+
+	/* ______________________________________________ 6_REVIEWS _______________________________________  */
+	.reviews
+		padding-top: 55px
+		padding-bottom: 55px
+		&-slider
+			&_bottom
+				width: 100%
+				&__descr
+					text-align: justify
+					-moz-text-align-last: center
+					text-align-last: center
+
+	/* ______________________________________________ 7_SERVICES _______________________________________  */
+	.services
+		padding-top: 55px
+		padding-bottom: 55px
+		&-block
+			margin-right: auto
+			margin-left: auto
+			margin-bottom: 33px
+			&s
+				flex-direction: column
+
+	/* ______________________________________________ 8_REQUEST _______________________________________  */
+	.request
+		padding-top: 55px
+		padding-bottom: 55px
+		.section-title
+			margin-bottom: 8px
+			&::after
+				display: none
+		&-form
+			text-align: center
+			.input
+				&-tel
+					margin-bottom: 24px
+			&__button
+
+	/* ______________________________________________ 9_CONTACTS _______________________________________  */
+	.contacts
+		padding-top: 55px
+		padding-bottom: 55px
+		text-align: center
+		&-map
+			width: 100%
+		&-info
+			position: relative
+			top: 20px
+			margin-left: auto
+			margin-right: auto
+			&__title
+				margin-bottom: 5px
+				font-size: 16px
+			&__descr
+				&_wrap
+					margin-bottom: 22px
+			&__button
+				margin-top: 22px
+
+	/* ______________________________________________ 10_FOOTER _______________________________________  */
+	.footer
+		padding-top: 22px
+		padding-bottom: 20px
+		.line
+			&::after
+				top: 63px
+		.information
+			margin-bottom: 36px
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ОТ 768 ДО 991 ПИКСЕЛЕЙ */
+@media (min-width: 768px) and (max-width: 991px)
+	/* отключаем ховер эффекты до 992+px по ТЗ */
+	button
+		&:hover
+			background-color: $button-color
+			cursor: default
+	.a
+		&:hover
+			cursor: default
+			text-decoration: none
+		&_small
+			&:hover
+				cursor: default
+				text-decoration: none
+	.advantages-certificate__img
+		&:hover
+			cursor: default
+	.reviews-slider__arrow
+		&:hover
+			cursor: default
+			transform: scale(1)
+	.modal-form_close
+		&:hover
+			cursor: default
+	.modal-thanks_close
+		&:hover
+			cursor: default
+
+	.input
+		width: 222px
+
+	.main
+		&-form
+			width: 300px
+			height: 297px
+			padding-top: 25px
+			&__title
+				margin-bottom: 9px
+			&__subtitle
+				padding-left: 0
+				padding-right: 0
+			&__button
+				width: 188px
+				&::before
+					left: -56px
+					width: 38px
+				&::after
+					right: -56px
+					width: 38px
+
+	/* ______________________________________________ 1_HEADER _______________________________________  */
+	.information
+		align-items: flex-end
+		margin-bottom: 66px
+		&-about
+			&__text
+				display: none
+		&-contacts
+			&__button
+
+	.header
+		padding-top: 25px
+		padding-bottom: 75px
+		&-sub
+			&-text
+				width: 333px
+				text-align: center
+				&__title
+					font-size: 31px
+				&__subtitle
+					font-size: 21px
+					margin-bottom: 10px
+				&__descr
+					font-size: 16px
+					margin-bottom: 25px
+				&__button
+					display: none
+	.scroll-arrow
+		display: none
+
+	/* ______________________________________________ 2_ABOUT _______________________________________  */
+	.about
+		padding-top: 63px
+		padding-bottom: 63px
+		&-content-wrap
+			justify-content: center
+			flex-direction: column
+		&-descr
+			line-height: 22px
+			&__text
+				text-align: center
+				font-size: 17px
+				p
+					margin-bottom: 40px
+			&__services
+				margin-bottom: 33px
+				&-img
+					margin-bottom: 5px
+				&-text
+					padding-left: 0
+					margin-bottom: 20px
+		&-video
+			width: 510px
+			height: 280px
+			margin: auto
+			video
+				width: 100%
+  			height: auto
+  			max-height: 100%	
+
+	/* ______________________________________________ 3_TRAINING _______________________________________  */
+	.training
+		padding-top: 63px
+		padding-bottom: 63px
+		.section-title
+		margin-bottom: 33px
+		&-descr
+			line-height: 23px
+		&-skill
+			width: 290px
+			margin-bottom: 30px
+			&__text
+				line-height: 20px
+		&-button
+			margin-top: 15px
+
+	/* ______________________________________________ 4_ADVANTAGES _______________________________________  */
+	.advantages
+		padding-top: 63px
+		padding-bottom: 63px
+		&-block
+			margin-right: auto
+			margin-left: auto
+			margin-bottom: 25px
+			&s
+				flex-direction: column
+				margin-bottom: 22px
+		&-certificate
+			text-align: center
+			&__descr
+				margin-top: 22px
+				width: 100%
+				line-height: 23px
+
+	/* ______________________________________________ 5_RESERVATION _______________________________________  */
+	.reservation
+		padding-top: 63px
+		padding-bottom: 63px
+
+
+	/* ______________________________________________ 6_REVIEWS _______________________________________  */
+	.reviews
+		padding-top: 63px
+		padding-bottom: 63px
+		&-slider
+			&_bottom
+				width: 100%
+				&__descr
+					text-align: justify
+					-moz-text-align-last: center
+					text-align-last: center
+
+	/* ______________________________________________ 7_SERVICES _______________________________________  */
+	.services
+		padding-top: 63px
+		padding-bottom: 63px
+		&-block
+			margin-right: auto
+			margin-left: auto
+			margin-bottom: 33px
+			&s
+				flex-direction: column
+
+	/* ______________________________________________ 8_REQUEST _______________________________________  */
+	.request
+		padding-top: 63px
+		padding-bottom: 63px
+
+	/* ______________________________________________ 9_CONTACTS _______________________________________  */
+	.contacts
+		padding-top: 63px
+		padding-bottom: 63px
+		text-align: center
+		&-map
+			width: 100%
+		&-info
+			position: relative
+			top: 20px
+			margin-left: auto
+			margin-right: auto
+			&__descr
+				&_wrap
+					margin-bottom: 22px
+			&__button
+				margin-top: 22px
+
+	/* ______________________________________________ 10_FOOTER _______________________________________  */
+	.footer
+		padding-top: 22px
+		padding-bottom: 20px
+		.line
+			&::after
+				top: 63px
+		.information
+			margin-bottom: 36px
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ОТ 992 ДО 1199 ПИКСЕЛЕЙ */
+@media (min-width: 992px) and (max-width: 1199px)
+
+	.input
+		width: 250px
+
+	.main
+		&-form
+			&__button
+				&::before
+					left: -56px
+					width: 38px
+				&::after
+					right: -56px
+					width: 38px
+	.modal
+		&-form
+			&__button
+				position: relative
+				&::before
+					content: ''
+					position: absolute
+					display: inline-block
+					top: 27px
+					left: -74px
+					width: 55px
+					height: 1px
+					background-color: rgba(255, 255, 255, 0.5)
+				&::after
+					content: ''
+					position: absolute
+					display: inline-block
+					top: 27px
+					right: -74px
+					width: 55px
+					height: 1px
+					background-color: rgba(255, 255, 255, 0.5)
+		&-review
+			&__form
+				width: 358px
+				height: 429px
+
+
+	/* ______________________________________________ 2_ABOUT _______________________________________  */
+	.about
+		padding-top: 63px
+		padding-bottom: 63px
+		&-content-wrap
+			justify-content: center
+			flex-wrap: wrap
+		&-descr
+			margin-bottom: 55px
+			&__text
+				text-align: justify
+				text-align-last: center
+		&-video
+			width: 510px
+			height: 280px
+			margin: auto
+			video
+				width: 100%
+  			height: auto
+  			max-height: 100%	
+	/* ______________________________________________ 3_TRAINING _______________________________________  */
+	.training
+		&-skills
+			justify-content: space-around
+	
+	/* ______________________________________________ 4_ADVANTAGES _______________________________________  */
+	.advantages
+		&-block
+			width: 290px
+			height: 170px
+
+	/* ______________________________________________ 6_REVIEWS _______________________________________  */
+	.reviews
+		&-slider
+			&_bottom
+				&__descr
+					text-align: justify
+					text-align-last: center
+
+	/* ______________________________________________ 7_SERVICES _______________________________________  */
+	.services
+		&-block
+			margin-bottom: 73px
+			&-3
+				margin: 0 auto
+		&-blocks
+			flex-wrap: wrap
+			justify-content: space-between
+
+	/* ______________________________________________ 9_CONTACTS _______________________________________  */
+	.contacts
+		&-map
+			width: 600px

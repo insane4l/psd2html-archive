@@ -1,0 +1,54 @@
+.reviews
+	padding-top: 73px
+	padding-bottom: 80px
+	text-align: center
+	.section-title
+		margin-bottom: 25px
+	&-slider
+		&__arrow
+			position: absolute
+			z-index: 99
+			top: 0
+			width: 33px
+			height: 100%
+			&:hover
+				cursor: pointer
+				transform: scale(1.2)
+			&_left
+				left: -92px
+				background: #fff url(../img/arrow-left.png) center no-repeat
+			&_right
+				right: -92px
+				background: #fff url(../img/arrow-right.png) center no-repeat
+		&_top
+			width: 150px
+			margin: auto
+		&__img
+			width: 130px
+			height: 130px
+			text-align: center
+			outline: none
+			img
+				display: inline-block
+		&_bottom
+			width: 750px
+			margin: 14px auto 17px auto
+			text-align: center
+			&__title
+				font-size: 18px
+				font-weight: 700
+				margin-bottom: 8px
+			&__subtitle
+				font-size: 16px
+				font-weight: 300
+				color: #404040
+			&__descr
+				font-size: 16px
+				font-weight: 300
+				line-height: 22px
+				color: $text-color-gray
+	&-button
+		width: 210px
+		margin-left: auto
+.slide_wrap
+	outline: none

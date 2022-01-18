@@ -1,0 +1,74 @@
+.about
+	padding-top: 74px
+	padding-bottom: 72px
+	.section-title
+		margin-bottom: 38px
+	&-content-wrap
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&-descr
+		display: inline-block
+		width: 555px
+		font-size: 18px
+		line-height: 27px
+		&__text
+			display: inline-block
+			font-weight: 300
+			color: $text-color-gray
+			p
+				margin-bottom: 22px
+		&__services
+			display: flex
+			justify-content: space-between
+		&__service
+			width: 262px
+			&-img
+				position: relative
+				padding-left: 19px
+				width: 121px
+				height: 115px
+				margin-bottom: 8px
+				&-1
+					&::after
+						content: ''
+						position: absolute
+						bottom: 3px
+						left: 0
+						display: block
+						width: 262px
+						height: 51px
+						background-color: #1991d4
+						border-radius: 3px
+						z-index: -3
+					img
+						border: 3px solid #fff
+				&-2
+					&::after
+						content: ''
+						position: absolute
+						bottom: 3px
+						left: 0
+						display: block
+						width: 262px
+						height: 51px
+						background-color: #7e66e7
+						border-radius: 3px
+						z-index: -3
+					img
+						border: 3px solid #fff
+			&-text
+				padding-left: 19px
+	&-video
+		display: inline-block
+		width: 555px
+		height: 365px
+		margin-bottom: 65px
+		video
+			width: 100%
+			height: 100%
+			border: none	
+
+.text_bold
+	font-weight: 700
+	color: $text-color-dark

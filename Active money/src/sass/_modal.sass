@@ -1,0 +1,135 @@
+.modal
+	display: none
+	position: fixed
+	top: 0
+	width: 100vw
+	height: 100vh
+	z-index: 222
+	background:  linear-gradient(to right, $bg-color-blue, $bg-color-violet)
+	&-form
+		position: fixed
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		color: $text-color-light
+		&_close
+			position: absolute
+			top: -5px
+			right: 10px
+			color: rgba(255, 255, 255, 0.5)
+			font-size: 38px
+			font-weight: 300
+			&:hover
+				cursor: pointer
+		&__subtitle
+			padding-left: 44px
+			padding-right: 44px
+			
+	&-thanks
+		display: none
+		position: fixed
+		top: 0
+		width: 100vw
+		height: 100vh
+		z-index: 222
+		background:  linear-gradient(to right, $bg-color-blue, $bg-color-violet)
+		&__wrap
+			position: fixed
+			top: 50%
+			left: 50%
+			transform: translate(-50%, -50%)
+			width: 360px
+			height: 228px
+			text-align: center
+			border: 1px solid rgba(255, 255, 255, 0.5)
+			color: $text-color-light
+		&_close
+			position: absolute
+			top: -5px
+			right: 10px
+			color: rgba(255, 255, 255, 0.5)
+			font-size: 38px
+			font-weight: 300
+			&:hover
+				cursor: pointer
+		&__text
+			width: 100%
+			height: 100%
+			display: flex
+			justify-content: center
+			align-items: center
+			flex-direction: column
+		&__title
+			font-size: 22px
+			font-weight: 700
+			margin-bottom: 9px
+			text-transform: uppercase
+		&__subtitle
+			font-size: 16px
+			font-weight: 400
+
+	&-review
+		display: none
+		position: fixed
+		top: 0
+		width: 100vw
+		height: 100vh
+		z-index: 222
+		background:  linear-gradient(to right, $bg-color-blue, $bg-color-violet)
+		&__form
+			display: inline-block
+			width: 330px
+			height: 430px
+			margin-top: -73px
+			padding-top: 35px
+			border-top: 1px solid rgba(255, 255, 255, 0.5)
+			border-right: 1px solid rgba(255, 255, 255, 0.5)
+			border-left: 1px solid rgba(255, 255, 255, 0.5)
+			text-align: center
+		&__title
+			font-size: 22px
+			font-weight: 700
+			margin-bottom: 9px
+			text-transform: uppercase
+		&__subtitle
+			font-size: 16px
+			font-weight: 400
+			margin-bottom: 28px
+			padding-left: 25px
+			padding-right: 25px
+		&_close
+			position: absolute
+			top: -5px
+			right: 10px
+			color: rgba(255, 255, 255, 0.5)
+			font-size: 38px
+			font-weight: 300
+			&:hover
+				cursor: pointer
+		&__textarea
+			font-size: 16px
+			border-radius: 5px
+			border: none
+			outline: none
+			padding-left: 15px
+		&__button
+			width: 210px
+			margin-top: 22px
+			&::before
+				content: ''
+				position: absolute
+				display: inline-block
+				bottom: 0
+				left: 0
+				width: 35px
+				height: 1px
+				background-color: rgba(255, 255, 255, 0.5)
+			&::after
+				content: ''
+				position: absolute
+				display: inline-block
+				bottom: 0
+				right: 0
+				width: 35px
+				height: 1px
+				background-color: rgba(255, 255, 255, 0.5)
