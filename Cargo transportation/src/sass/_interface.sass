@@ -1,0 +1,80 @@
+.button_effect
+	overflow: hidden
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		width: 0%
+		height: calc(100% + 40px)
+		background-image: linear-gradient(-33deg, $interface-color-blue 35%, rgba(#fff, .5) 50%, rgba(#fff, .5) 55%, $interface-color-blue 65%)
+		top: 0
+		left: -200px
+		z-index: -1
+		transition: all 1s ease
+	&:hover
+		opacity: .8
+		&:before
+			width: 100%
+			top: -5px
+			bottom: -5px
+			left: 200px
+
+
+	
+.button
+	width: 184px
+	height: 48px
+	border-radius: 24px
+	background-color: #0b5e8f
+	color: $text-color-light
+	font-size: 15px
+	font-weight: 600
+	&:hover
+		opacity: .8
+
+	
+
+
+
+
+		
+.section-title, .header-main__logo
+	&::before,
+	&::after
+		content: ''
+		position: absolute
+		top: 50%
+		transform: translateY(-50%)
+		width: 105px
+		height: 2px
+
+.section-title
+	display: inline-block
+	position: relative
+	margin: 0
+	text-transform: uppercase
+	left: 50%
+	transform: translateX(-50%)
+	font-size: 23px
+	font-weight: 600
+	color: $section-title-color
+	&::before
+		left: -140px
+	&::after
+		right: -140px		
+
+.header-main__logo
+	&::before
+		left: -145px
+	&::after
+		right: -145px
+
+.section-title
+	&::before,
+	&::after
+		background: url(../img/section-title-strip.png)
+
+.header-main__logo
+	&::before,
+	&::after
+		background: url('../img/1_header/header-title-strip.png')

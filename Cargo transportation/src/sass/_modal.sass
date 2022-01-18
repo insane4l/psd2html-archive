@@ -1,0 +1,34 @@
+.modal
+	display: none
+	.section-title
+		left: 0
+		transform: none
+	&-overlay
+		position: fixed
+		top: 0
+		width: 100vw
+		height: 100vh
+		z-index: 222
+		background:  rgba(31, 31, 31, 0.7)
+	&-form
+		text-align: center
+		position: fixed
+		padding: 40px 70px 30px 70px
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		background-color: #fff
+		&_close
+			position: absolute
+			top: -44px
+			right: 0
+			color: #fff
+			font-size: 38px
+			font-weight: 300
+			&:hover
+				cursor: pointer
+		.section-title
+			&::before
+				display: none
+			&::after
+				display: none
